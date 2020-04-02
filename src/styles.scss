@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  color: #666666;
+  font-size: 14px;
+  font-family: Arial, "Helvetica Neue", sans-serif;
+}
+body * { box-sizing: border-box }
+
+img {
+  width: auto;
+  max-width: 100%;
+}
+
+a {
+  font-family: Arial, "Helvetica Neue", sans-serif;
+  color: #333333;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+  padding: 24px 0;
+  text-align: center;
+}
+
+.screen-saver-holder {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .7);
+}
+svg {
+  position: absolute;
+}
